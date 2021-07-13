@@ -51,6 +51,7 @@
 #include <vector>
 #include <iomanip>
 #include <cmath>
+#include <limits>
 
 #ifdef USE_GOOGLE_HASH
 #include <google/dense_hash_map>

@@ -1,6 +1,5 @@
 #include "replace_private.h"
 
-
 using std::string;
 using std::cout;
 using std::endl;

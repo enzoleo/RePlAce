@@ -36,18 +36,19 @@ RePlAce: Advancing Solution Quality and Routability Validation in Global Placeme
 * X11 library (for CImg library to visualize) >= 1.6.5
 * Recommended OS: Centos6, Centos7 or Ubuntu 16.04
 
-### Clone repo and submodules 
-    $ git clone --recursive --branch standalone https://github.com/The-OpenROAD-Project/RePlAce.git
-    $ cd ~/RePlAce
-    $ ./prerequisite/install_centos7.sh   // for centos 7
-    $ ./prerequisite/install_ubuntu16.sh  // for ubuntu 16
-    $ mkdir build
-    $ cd build
-    $ cmake ..                            // you may specify -DCMAKE_INSTALL_PREFIX to avoid installing in /usr/local/*
-    $ make 
-    $ make install                        // if you want to install
+### Clone repo and submodules
+```shell
+git clone --recursive --branch standalone https://github.com/enzoleo/RePlAce.git
+cd RePlAce/
+./prerequisite/install_centos7.sh
+./prerequisite/install_ubuntu16.sh
+mkdir build
+cd build
+cmake ..
+make 
+make install
+```
 
-   
 ### Check your installation
     To make sure your installation is correct and the current tool version is stable enough, 
     run a Hello World application:
